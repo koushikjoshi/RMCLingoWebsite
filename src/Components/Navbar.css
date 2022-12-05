@@ -1,0 +1,20 @@
+#mainnavbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    position: relative;
+    background-color:#42c6ec;
+    z-index: 2;
+
+}
+
+.bg-light{
+    background-color: #42c6ec !important;
+}
+.logo{
+    max-width: 270px !important;
+    height: 95px;
+}
+.navbar-brand{
+    background-color: white;
+}
