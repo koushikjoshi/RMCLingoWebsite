@@ -1,0 +1,13 @@
+.testimonialimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    width: 800px;
+    height: 500px;
+}
+
+.container-carousel{
+  
+    height: 400px;
+}

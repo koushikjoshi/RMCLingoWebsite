@@ -1,20 +1,239 @@
-#mainnavbar{
+.topNav {
+  background-color: #0f2239;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.dropDownMenu {
+  color: black !important;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.contactStuff {
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+.smStuff {
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.facebook {
+  padding: 10px;
+}
+.twitter {
+  padding: 10px;
+}
+.instagram {
+  padding: 10px;
+}
+.pinterest {
+  padding: 10px;
+}
+.phone {
+  padding: 10px;
+}
+.email {
+  padding: 10px;
+}
+.address {
+  padding: 10px;
+}
+span {
+  padding-left: 10px;
+}
+.secondNav {
+  background-color: #0dcaf0;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.lingoLogo {
+  height: 100px;
+}
+.logo {
+  background: repeating-linear-gradient(
+    -45deg,
+    rgb(228, 228, 228),
+    rgb(228, 228, 228) 5px,
+    #fff 5px,
+    #fff 10px
+  );
+  height: 100.4px;
+  width: 350px;
+  clip-path: polygon(0 0, 65% 0, 100% 100%, 0% 100%);
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: larger;
+  justify-content: center;
+  color: white;
+  font-weight: bolder;
+}
+
+.home {
+  padding: 10px;
+  color: white !important;
+}
+.aboutUs {
+  padding: 10px;
+  padding-top: 13px;
+}
+.courses {
+  padding: 10px !important;
+}
+.training {
+  padding: 10px;
+}
+.blog {
+  padding: 10px;
+}
+.contactUs {
+  padding: 10px;
+  padding-right: 200px;
+}
+.no-underline .dropdown-toggle {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: large;
+}
+.otherLang {
+  text-decoration: none;
+  margin-left: -10px;
+  font-size: medium;
+  font-weight: normal;
+}
+
+.menuIcon {
+  display: none;
+}
+
+.slide-enter {
+  opacity: 0;
+}
+
+.slide-enter-active {
+  opacity: 1;
+  transition: opacity 300ms ease-in-out;
+}
+
+.slide-exit {
+  opacity: 1;
+}
+
+.slide-exit-active {
+  opacity: 0;
+  transition: opacity 300ms ease-in-out;
+}
+
+.slide2-enter {
+  transform: translateX(-100%);
+}
+
+.slide2-enter-active {
+  transform: translateX(0);
+  transition: transform 300ms ease-in-out;
+}
+
+.slide2-exit {
+  transform: translateX(0);
+}
+
+.slide2-exit-active {
+  transform: translateX(-100%);
+  transition: transform 300ms ease-in-out;
+}
+
+@media (max-width: 768px) {
+  .topNav {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .contactStuff {
+    display: none;
+  }
+  .smStuff {
+    align-items: center;
+    justify-content: center;
+  }
+  .secondNav .links {
+    display: none;
+  }
+  .secondNav .menuIcon {
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    margin: 0;
-    position: relative;
-    background-color:#42c6ec;
-    z-index: 2;
+    align-items: center;
+  }
+  .menuIcon {
+    height: 80px;
+    padding-right: 15px;
+  }
 
-}
-
-.bg-light{
-    background-color: #42c6ec !important;
-}
-.logo{
-    max-width: 270px !important;
-    height: 95px;
-}
-.navbar-brand{
-    background-color: white;
+  .secondNav {
+    background-color: #0dcaf0;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .lingoLogo {
+    height: 80px;
+  }
+  .logo {
+    background: repeating-linear-gradient(
+      -45deg,
+      rgb(228, 228, 228),
+      rgb(228, 228, 228) 5px,
+      #fff 5px,
+      #fff 10px
+    );
+    height: 81px;
+    width: 250px;
+    clip-path: polygon(0 0, 65% 0, 100% 100%, 0% 100%);
+  }
+  .offCanvasLogoImg {
+    width: 90%;
+  }
+  .closeButton {
+    align-self: flex-end;
+  }
+  .textOff {
+    height: 70%;
+    padding-top: 40px;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-weight: bold;
+  }
+  .offCanvasAbout,
+  .languageDropdownOff {
+    font-size: medium;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 30px;
+  }
+  .languageDropdownOff {
+    font-size: medium;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 30px;
+  }
 }

@@ -1,0 +1,31 @@
+#blogpage{
+    background-position: static;
+    background-image: url(https://tigtsoft.com/rmclingo/wp-content/uploads/2022/12/pexels-ed-duvico-6408672.jpg);
+    width: 100%;
+    height: 100%;
+    background-color: var(--title-color);
+    padding: 140px 0;
+    text-align: center;
+    overflow: hidden;
+}
+
+.emptypage{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.18;
+    text-transform: uppercase;
+    color: white;
+    margin: -0.2em 0 -0.2em 0;
+}
+
+
+.comingsoonimg{
+    margin-top: 50px;
+    margin-left: 50px;
+    align-items:center ;
+    display: block;
+    
+    
+    max-width: 100%;
+    height: auto;
+}

@@ -1,0 +1,19 @@
+.partners{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:flex-end
+}
+.uniimg{
+    height: 100px;
+    width: 100px;
+    margin: 2px;
+}
+
+
+.unilist{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}

@@ -1,0 +1,143 @@
+.bgimg {
+  box-sizing: border-box;
+
+  left: 49%;
+  position: absolute;
+  z-index: -1;
+}
+.container {
+  margin-top: 30px;
+}
+.learnforfeats {
+  display: flex;
+}
+.featslist{
+    list-style: circle;
+}
+
+ol {
+    
+  list-style: circle black;
+}
+.backline1 {
+  width: 100%;
+  height: auto;
+}
+
+.tmimg {
+  display: flex;
+  margin-right: 10px;
+}
+.tmimg1 {
+  margin-right: 10px;
+}
+.tmimg2 {
+  margin-top: 20px;
+}
+
+.tmimg1,
+.tmimg2 {
+  border-radius: 50px;
+  height: 350px;
+}
+
+.tminfobody {
+  line-height: 1.8;
+  margin-bottom: 30px;
+  text-align: left;
+}
+/* Foreing section */
+
+.learforeign {
+  background-image: url(https://angfuzsoft.com/themeforest/wordpress/fresh/wp-content/uploads/2022/08/why_bg_1.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.featureboxes {
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 10%px;
+}
+.topboxes {
+  display: flex;
+  padding: 5px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  background-color: aliceblue;
+}
+.bottomboxes {
+  display: flex;
+  margin-right: 15px;
+  margin-top: 15px;
+  background-color: aliceblue;
+}
+/* Virtual Training Section */
+
+.vtimgboximg{
+    background-color: rgb(4, 82, 82);
+    z-index: 2;
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: 220%;
+    left: 40px;
+    height: 150px;
+    width: 150px;
+    border-radius: 40px;
+}
+
+.vtrightlists{
+    display: flex;
+}
+
+.vtrightlist{
+    font-weight: bolder;
+}
+
+.vtlist{
+    list-style:circle;
+}
+/* LINGO AIM */
+
+#aim{
+    background-image: url(https://tigtsoft.com/rmclingo/wp-content/uploads/2022/08/feature_bg_1-6.jpg);
+}
+
+.aimtitle{
+    text-align: center;
+   color: white;     
+}
+.aimtext{
+    font-size: large;
+}
+
+.card1{
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+
+.card2{
+    background-color: #42C6EC;
+   border-radius: 20px;
+   margin: 20px;
+}
+
+
+/* German Course */
+#germancourse{
+    background-image: url(https://angfuzsoft.com/themeforest/wordpress/fresh/wp-content/uploads/2022/08/cta_bg_2.jpg),linear-gradient(rgba(218, 212, 212, 0.5),rgba(0,0,0,0.5));
+    background-position: center center;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.button{
+    padding: 10px;
+    background-color: #42C6EC;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}

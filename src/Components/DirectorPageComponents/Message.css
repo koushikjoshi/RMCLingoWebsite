@@ -1,0 +1,17 @@
+.directorpic{
+    max-width: 100%;
+    margin-top: 10px;
+    height: auto;
+}
+
+.message-location{
+    font-size: 1rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.message-body{
+    line-height: 1.8;
+}

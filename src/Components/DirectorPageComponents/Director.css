@@ -1,0 +1,20 @@
+.directorcontainer {
+  background-position: cover;
+  background-image: url(https://tigtsoft.com/rmclingo/wp-content/uploads/2022/12/pexels-ed-duvico-6408672.jpg);
+  width: 100%;
+  height: 100%;
+  background-color: var(--title-color);
+  padding: 140px 0;
+  text-align: center;
+  overflow: hidden;
+}
+
+
+.Title{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.18;
+    text-transform: uppercase;
+    color: white;
+    margin: -0.2em 0 -0.2em 0;
+}

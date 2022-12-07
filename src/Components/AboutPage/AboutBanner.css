@@ -1,0 +1,41 @@
+.aboutbannercontainer{
+    background-image: url(https://angfuzsoft.com/themeforest/wordpress/fresh/wp-content/uploads/2022/08/feature_bg_1.jpg);
+    background-repeat:repeat;
+    background-size: cover;
+ 
+    height: 300px;
+}
+.elementaboutbanner{
+    display: flex;
+    flex-direction: row;
+}
+.visoin{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 1px solid grey;
+    margin-top: 20px;
+}
+.symbol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.staff{
+    display: flex ;
+    border: 1px solid grey;
+    margin: 20px;
+    justify-content: center;
+   
+}
+
+.aboutbannerelementtext{
+    font-size: 16px;
+    text-transform: none;
+    color: white;
+}
+.aboutbannerelementheadings{
+    color:#42c6ec;
+    font-size: 35px;
+}

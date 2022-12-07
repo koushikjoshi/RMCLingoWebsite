@@ -1,0 +1,95 @@
+.container {
+  display: flex;
+}
+
+.image-one {
+  width: 700px;
+  height: 400px;
+  padding: 3rem;
+}
+
+.tabcontent {
+  border: 1px solid black;
+}
+
+.image-two {
+  width: 400px;
+  height: 250px;
+  margin-bottom: 30px;
+}
+.s-g {
+  margin-bottom: 5px;
+  margin-left: 40px;
+  border-radius: 11px;
+  background-color: red;
+  color: white;
+  border: 3rem;
+  height: 24px;
+}
+.ridge {
+  border: 1px solid rgb(188, 192, 188);
+  padding: 2px;
+  margin-bottom: 5rem;
+}
+.ridgeA {
+  border: 1px solid rgb(188, 192, 188);
+  padding: 5px;
+  margin-bottom: 3rem;
+}
+.enroll {
+  margin-left: 60px;
+  height: 50px;
+  width: 300px;
+  background-color: rgb(79, 79, 241);
+  color: white;
+  border-color: white;
+}
+.f-s {
+  margin-left: 40px;
+}
+.btm-6 {
+  margin-left: 150px;
+}
+.btn-2B {
+  margin-left: 60px;
+  height: 50px;
+  width: 300px;
+  background-color: rgb(246, 253, 253);
+  border-color: white;
+  color: rgb(1, 68, 68);
+}
+.flex-container > div {
+  background-color: rgba(161, 156, 156, 0.822);
+  margin: 10px;
+  padding: 40px;
+  font-size: 10px;
+}
+.h6-s {
+  font-size: medium;
+}
+.G-S {
+  margin-left: 40px;
+}
+.main-s {
+  box-shadow: 5px 5px 5px;
+}
+table {
+  width: 500px;
+  height: 500px;
+  border-collapse: collapse;
+  margin-left: 40px;
+}
+
+th {
+  border-bottom: 1px solid black;
+  border: 2px solid black;
+}
+
+td {
+  text-align: center;
+  border: 2px solid black;
+}
+.last-text {
+  text-align: left;
+  margin-left: 40px;
+}

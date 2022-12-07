@@ -1,0 +1,29 @@
+.getintouch{
+    color: black;
+    border-bottom: 4px solid #6EC1E4;
+    
+}
+
+.enquiry{
+    line-height: 1.75;
+    text-align: center;
+}
+
+.company-details{
+    margin-top: 30px;
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+}
+
+.iconcontainer{
+    
+    align-self: center;
+    
+    color: rgb(8, 8, 8);
+    width: 50px;
+    height: 50px;
+   
+}
+
+
