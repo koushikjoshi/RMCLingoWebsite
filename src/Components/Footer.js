@@ -59,6 +59,7 @@ export function Footer() {
               <p>313, 3 rd Floor, Style Living Mall,</p>
               <p>Jasola, New Delhi - 110025</p>
             </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.1115882104164!2d77.61331931478543!3d12.964710790860423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae15dd2c066697%3A0xdfe5d9795fde5711!2sRmc%20Educational%20service%20center!5e0!3m2!1sen!2sin!4v1670500137238!5m2!1sen!2sin" width="400" height="300" allowfullscreen="false" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
 
