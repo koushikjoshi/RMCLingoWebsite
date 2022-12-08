@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./AboutSection.css";
 
 export const AboutSection = () => {
@@ -27,7 +28,8 @@ export const AboutSection = () => {
             pedagogy.d.
           </p>
           <div className="buttons">
-            <button className="contact">Contact Us</button>
+            <Link to="/Contact"> <button className="contact"> Contact Us</button> </Link>
+            
             <button className="courses">All Courses</button>
           </div>
         </div>
