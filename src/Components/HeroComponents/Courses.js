@@ -57,35 +57,47 @@ export const Courses = () => {
         swipeable
       >
         <div className="Courses-card" id="courses-id">
-          <img src="https://via.placeholder.com/150" alt="German Language" />
+          <img
+            src={require("../../Assets/germany.png")}
+            alt="German Language"
+          />
           <h4 className="Courses-title">German Language</h4>
         </div>
         <div className="Courses-card">
-          <img src="https://via.placeholder.com/150" alt="French Language" />
+          <img src={require("../../Assets/france.png")} alt="French Language" />
           <h4 className="Courses-title">French Language</h4>
         </div>
         <div className="Courses-card">
-          <img src="https://via.placeholder.com/150" alt="Spanish Language" />
+          <img src={require("../../Assets/spain.png")} alt="Spanish Language" />
           <h4 className="Courses-title">Spanish Language</h4>
         </div>
         <div className="Courses-card">
-          <img src="https://via.placeholder.com/150" alt="Japanese Language" />
+          <img
+            src={require("../../Assets/japan.png")}
+            alt="Japanese Language"
+          />
           <h4 className="Courses-title">Japanese Language</h4>
         </div>
         <div className="Courses-card">
-          <img src="https://via.placeholder.com/150" alt="Russian Language" />
+          <img
+            src={require("../../Assets/russia.png")}
+            alt="Russian Language"
+          />
           <h4 className="Courses-title">Russian Language</h4>
         </div>
         <div className="Courses-card">
-          <img src="https://via.placeholder.com/150" alt="Arabic Language" />
+          <img src={require("../../Assets/dubai.png")} alt="Arabic Language" />
           <h4 className="Courses-title">Arabic Language</h4>
         </div>
         <div className="Courses-card">
-          <img src="https://via.placeholder.com/150" alt="Korean Language" />
+          <img src={require("../../Assets/korea.png")} alt="Korean Language" />
           <h4 className="Courses-title">Korean Language</h4>
         </div>
         <div className="Courses-card">
-          <img src="https://via.placeholder.com/150" alt="English Language" />
+          <img
+            src={require("../../Assets/england.png")}
+            alt="English Language"
+          />
           <h4 className="Courses-title">English Language</h4>
         </div>
       </Carousel>

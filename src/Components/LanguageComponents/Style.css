@@ -1,0 +1,142 @@
+.bannerImg {
+  display: flex;
+  height: 300px;
+  background-image: url("https://tigtsoft.com/rmclingo/wp-content/uploads/2022/12/pexels-ed-duvico-6408672.jpg");
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.topElementsLang {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 10%;
+}
+.sideCols {
+  display: flex;
+  flex-direction: column;
+}
+.sideCols {
+  width: 20%;
+}
+.sideCol1,
+.sideCol2 {
+  width: 100%;
+  background-color: aliceblue;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.sideCol2 {
+  margin-top: 30px;
+}
+.mainImg {
+  border-radius: 15px;
+  background-color: aliceblue;
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+}
+.courseImage {
+  width: 100%;
+  align-self: center;
+}
+.courseImg {
+  margin: 30px;
+  align-self: center;
+  border-radius: 15px !important;
+}
+.courseImg {
+  width: 90%;
+}
+.courseName {
+  margin: 30px;
+  color: rgb(0, 0, 43);
+}
+.batchTime {
+  margin-left: 30px;
+}
+.courseImageSide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.courseImg2 {
+  width: 300px;
+}
+.enrollButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.enrollbtn {
+  width: 80%;
+  height: 60px;
+  background-color: blue;
+}
+.shareButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.shareBtn {
+  width: 80%;
+  height: 60px;
+  background-color: lightblue;
+  color: gray;
+}
+
+.bottomElementsLang {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.tabElements {
+  width: 65%;
+}
+
+.reqCol {
+  border-radius: 15px;
+  width: 20%;
+  width: 20%;
+  height: 500px;
+  background-color: aliceblue;
+}
+.reqTitle {
+  padding: 30px;
+}
+.aboutCourseContent {
+  padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .topElementsLang {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .sideCols {
+    width: 100%;
+  }
+  .mainImg {
+    width: 100%;
+  }
+  .bottomElementsLang {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .tabElements {
+    width: 100%;
+  }
+  .reqCol {
+    width: 100%;
+  }
+  .courseImg,
+  .courseName {
+    margin-left: 10px;
+  }
+}
