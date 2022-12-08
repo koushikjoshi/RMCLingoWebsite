@@ -118,14 +118,6 @@ export const TrainingBody = () => {
                   className="mainimg img-fluid  "
                 ></img>
               </div>
-              <div className="vtimgboximg">
-                <h6>Total No. Of Students</h6>
-                <h6>1000</h6>
-                <img
-                  src="https://angfuzsoft.com/themeforest/wordpress/fresh/wp-content/uploads/2022/08/student_1_2.png"
-                  className="secondaryimg img-round"
-                ></img>
-              </div>
             </div>
           </div>
           <div className="col vtrightinfo">
