@@ -343,16 +343,22 @@ export const Navbar = () => {
                   )}
                 </div>
                 <div className="TrainingOff">
-                  <FaAngleRight color="black" />
-                  <span>Training</span>
+                  <Link to="/Training">
+                    <FaAngleRight color="black" />
+                    <span>Training</span>
+                  </Link>
                 </div>
                 <div className="BlogOff">
-                  <FaAngleRight color="black" />
-                  <span>Blog</span>
+                  <Link to="/Blog">
+                    <FaAngleRight color="black" />
+                    <span>Blog</span>
+                  </Link>
                 </div>
                 <div className="ContactUsOff">
-                  <FaAngleRight color="black" />
-                  <span>Contact Us</span>
+                  <Link to="/Contact">
+                    <FaAngleRight color="black" />
+                    <span>Contact Us</span>
+                  </Link>
                 </div>
               </div>
             </Offcanvas.Body>
