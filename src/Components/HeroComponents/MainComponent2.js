@@ -19,6 +19,7 @@ export const MainComponent2 = () => {
           style={{ height: 630, objectFit: "cover" }}
         />
         <div
+          className="background-gradient"
           style={{
             position: "absolute",
             top: 0,
@@ -31,6 +32,7 @@ export const MainComponent2 = () => {
           }}
         />
         <div
+          className="text-container"
           style={{
             width: "50%",
             position: "absolute",
@@ -78,6 +80,7 @@ export const MainComponent2 = () => {
           style={{ height: 630, objectFit: "cover" }}
         />
         <div
+          className="background-gradient"
           style={{
             position: "absolute",
             top: 0,
@@ -90,6 +93,7 @@ export const MainComponent2 = () => {
           }}
         />
         <div
+          className="text-container"
           style={{
             width: "50%",
             position: "absolute",
@@ -138,6 +142,7 @@ export const MainComponent2 = () => {
         />
 
         <div
+          className="background-gradient"
           style={{
             position: "absolute",
             top: 0,
@@ -150,6 +155,7 @@ export const MainComponent2 = () => {
           }}
         />
         <div
+          className="text-container"
           style={{
             width: "50%",
             position: "absolute",

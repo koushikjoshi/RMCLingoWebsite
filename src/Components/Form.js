@@ -5,7 +5,10 @@ export default function Form() {
   return (
     <div className="formMain">
       <div className="image">
-        <img src={require("../Assets/girlpic.png")} />
+        <img
+          src={require("../Assets/girlpic.png")}
+          className="img-fluid girlImg"
+        />
       </div>
       <div className="textStuff">
         <div className="headers">
