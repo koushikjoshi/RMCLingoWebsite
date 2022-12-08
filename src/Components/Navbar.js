@@ -274,8 +274,10 @@ export const Navbar = () => {
               </div>
               <div className="textOff">
                 <div className="homeOff">
-                  <FaAngleRight color="black" />
-                  <span>Home</span>
+                  <Link to="/">
+                    <FaAngleRight color="black" />
+                    <span>Home</span>
+                  </Link>
                 </div>
                 <div className="AboutUsOff" onClick={handleAboutUsClick}>
                   <FaAngleRight color="black" />
