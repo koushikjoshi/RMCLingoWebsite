@@ -5,7 +5,7 @@ export const AboutSection = () => {
   return (
     <div className="container-fluid" id="about-container">
       <div className="row">
-        <div className="col  AboutUsContainerinfo">
+        <div className="col-sm  AboutUsContainerinfo">
           <h1>About Us</h1>
           <p>
             The advantages of learning foreign languages are mushrooming as the
@@ -18,7 +18,7 @@ export const AboutSection = () => {
             overwhelming demand in various regional and foreign languages over
             the past couple of years and addressing this need of hour with a
             vision to remove communication barriers RMC Group began expanding
-            its linguistic sphere with the name of RMC Lingo – The Proactive
+            its linguistic sphere with the name of RMC Lingo - The Proactive
             Language Lab; A vision to be the remarkable choice for educational
             sphere in the linguistic world. With the introduction of more than
             12+ languages like German, French, Spanish, Japanese, Arabic and
@@ -31,7 +31,7 @@ export const AboutSection = () => {
             <button className="courses">All Courses</button>
           </div>
         </div>
-        <div className="col aboutuscontainerpic ">
+        <div className="col-sm aboutuscontainerpic ">
           <div className="twopics">
             <img
               src="https://tigtsoft.com/rmclingo/wp-content/uploads/2022/11/pexels-pixabay-267491.jpg"

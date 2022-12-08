@@ -1,6 +1,5 @@
 import React from "react";
 import "./TrainingBody.css";
-import { FaHandPointRight } from "react-icons/fa";
 
 export const TrainingBody = () => {
   return (
@@ -9,7 +8,7 @@ export const TrainingBody = () => {
         <div className="row">
           {" "}
           <h1 className="section-title">Training Methodology</h1>
-          <div className="col-md-6 tminfo">
+          <div className="col-sm-6 tminfo">
             <p className="tminfobody">
               RMC Lingo’s interdisciplinary language program provides students
               with opportunities to enrich knowledge of a foreign language
@@ -24,16 +23,16 @@ export const TrainingBody = () => {
               Japanese, etc.
             </p>
           </div>
-          <div className="col  tmimgbox">
+          <div className="col tmimgbox">
             <div className="bgimg">
               <img
                 src="https://angfuzsoft.com/themeforest/wordpress/fresh/wp-content/uploads/2022/08/line_2.png"
                 className="backline1"
               ></img>
             </div>
-            <div className="tmimg img-fluid">
+            <div className="tmimg-col-sm-6 img-fluid">
               <img
-                className="tmimg1"
+                className="tmimg1 img-fluid"
                 src="https://tigtsoft.com/rmclingo/wp-content/uploads/2022/11/pexels-mikhail-nilov-7988207.jpg"
               ></img>
               <img
@@ -58,12 +57,12 @@ export const TrainingBody = () => {
               software:
             </p>
             <div className="learnforfeats">
-              <ul className="featslist">
+              <ul className="container featslist">
                 <ol>Whiteboard functions</ol>
                 <ol>Listening exercises</ol>
                 <ol>Speech training via HD audio and HD video</ol>
               </ul>
-              <ul className="featslist">
+              <ul className="container featslist">
                 <ol>Documents Upload/Download</ol>
                 <ol>Online grammar learnings</ol>
                 <ol>
@@ -113,10 +112,12 @@ export const TrainingBody = () => {
         <div className="row">
           <div className="col vtleftimg">
             <div className="vtimgcontainer">
-              <img
-                src="https://tigtsoft.com/rmclingo/wp-content/uploads/2022/11/pexels-julia-m-cameron-4144923.jpg"
-                className="mainimg"
-              ></img>
+              <div className="firsimg">
+                <img
+                  src="https://tigtsoft.com/rmclingo/wp-content/uploads/2022/11/pexels-julia-m-cameron-4144923.jpg"
+                  className="mainimg img-fluid  "
+                ></img>
+              </div>
               <div className="vtimgboximg">
                 <h6>Total No. Of Students</h6>
                 <h6>1000</h6>
