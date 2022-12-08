@@ -11,7 +11,7 @@ export const WhyStudy = () => {
               src="https://tigtsoft.com/rmclingo/wp-content/uploads/2022/12/world-map-globe-world-language-png-favpng-ZLGpNGq9pjJnWUA5jGLHwHrVb-removebg-preview.png"
               className="img-fluid"
             ></img>
-            <div className="container student-count">
+            {/* <div className="container student-count">
               <h6>Total Student Count</h6>
               <div className="avatar-list">
                 <div className="avatar">
@@ -30,7 +30,7 @@ export const WhyStudy = () => {
                   <span>1000+</span>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="col-sm-6 wsright">
