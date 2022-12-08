@@ -1,0 +1,106 @@
+#whystudy {
+  background-image: url(https://tigtsoft.com/rmclingo/wp-content/uploads/2022/08/cloud_1-6.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wslieft {
+  position: relative;
+  padding-right: 56px;
+}
+.globeimage {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.avatar-list {
+  display: inline-flex;
+
+  align-items: center;
+  padding-left: 22px;
+}
+.student-count {
+  bottom: 12px;
+  left: -12px;
+  position: absolute;
+  display: inline-block;
+  background-color: white;
+  width: 220px !important;
+  box-shadow: 0px 4px 18px rgb(158 165 177 / 23%);
+  border-radius: 10px;
+  padding: 30px;
+  align-items: center;
+}
+.avatar {
+  width: 56px;
+  min-width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid var(--white-color);
+  margin-left: -25px;
+}
+
+.count {
+  background-color: #42c6ec;
+  color: white;
+  display: inline-block;
+  text-align: center;
+  line-height: 50px;
+  width: 56px;
+  min-width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid var(--white-color);
+  margin-left: -25px;
+}
+
+.wsmaintitle {
+  font-size: 40px;
+  color: #42c6ec;
+}
+
+.wssectitle {
+  font-size: 35px;
+  line-height: 1.167;
+}
+
+.ticklist {
+    
+    list-style-type: circle;
+    color: rgb(15 34 57);
+    margin-bottom: 10px;
+    font-weight: 500;
+    position: relative;
+    padding-left: 28px;
+}
+
+.explore{
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    vertical-align: middle;
+    display: inline-block;
+    border: none;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #42c6ec;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    padding: 20.5px 29px;
+    -webkit-box-shadow: 0px 6px 16px rgb(13 94 244 / 24%);
+    box-shadow: 0px 6px 16px rgb(13 94 244 / 24%);
+    border-radius: 5px;
+    
+}
+
+@media (max-width: 992px) {
+    .student-count,.avatar-list,.avatar {
+      width: 15px;
+      height: 50px;
+    }
+  }

@@ -11,6 +11,7 @@ import {
   FaBookmark,
   FaStar,
 } from "react-icons/fa";
+import { Footer } from "../Footer";
 
 export const Germany = () => {
   return (
@@ -204,6 +205,7 @@ export const Germany = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

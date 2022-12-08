@@ -4,6 +4,7 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 import { Navbar } from "../Navbar";
 import { Button } from "react-bootstrap";
+import { Footer } from "../Footer";
 import {
   FaAddressBook,
   FaBookOpen,
@@ -204,6 +205,7 @@ export const Spanish = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

@@ -8,6 +8,9 @@ import { Courses } from "../Components/HeroComponents/Courses";
 import { MainComponent2 } from "../Components/HeroComponents/MainComponent2";
 import { Footer } from "../Components/Footer";
 import Form from "../Components/Form";
+import { JoinUsSection } from "../Components/HeroComponents/JoinUsSection";
+import { WhyStudy } from "../Components/HeroComponents/WhyStudy";
+import { BlogPost } from "../Components/HeroComponents/BlogPost";
 
 export const Hero = () => {
   return (
@@ -19,6 +22,9 @@ export const Hero = () => {
       </div>
       <Courses />
       <Form />
+      <JoinUsSection />
+      <WhyStudy />
+      <BlogPost />
       <Footer />
     </div>
   );

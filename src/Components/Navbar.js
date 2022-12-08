@@ -299,28 +299,45 @@ export const Navbar = () => {
                   {showCoursesDropdown && (
                     <Dropdown className="languageDropdownOff">
                       <Dropdown.Item href="#/action-1">
-                        <FaAngleRight /> <b>German Language</b>
+                        <Link to="/Germany">
+                          <FaAngleRight /> <b>German Language</b>
+                        </Link>
                       </Dropdown.Item>
+
                       <Dropdown.Item href="#/action-2">
-                        <FaAngleRight /> <b>French Language</b>
+                        <Link to="/French">
+                          <FaAngleRight /> <b>French Language</b>
+                        </Link>
                       </Dropdown.Item>
                       <Dropdown.Item href="#/action-3">
-                        <FaAngleRight /> <b>Spanish Language</b>
+                        <Link to="/Spanish">
+                          <FaAngleRight /> <b>Spanish Language</b>
+                        </Link>
                       </Dropdown.Item>
                       <Dropdown.Item href="#/action-1">
-                        <FaAngleRight /> <b>Japanese Language</b>
+                        <Link to="/Japanese">
+                          <FaAngleRight /> <b>Japanese Language</b>
+                        </Link>
                       </Dropdown.Item>
                       <Dropdown.Item href="#/action-2">
-                        <FaAngleRight /> <b>Arabic Language</b>
+                        <Link to="/Arabic">
+                          <FaAngleRight /> <b>Arabic Language</b>
+                        </Link>
                       </Dropdown.Item>
                       <Dropdown.Item href="#/action-3">
-                        <FaAngleRight /> <b>Russian Language</b>
+                        <Link to="Russian">
+                          <FaAngleRight /> <b>Russian Language</b>
+                        </Link>
                       </Dropdown.Item>
                       <Dropdown.Item href="#/action-2">
-                        <FaAngleRight /> <b>Korean Language</b>
+                        <Link to="Korean">
+                          <FaAngleRight /> <b>Korean Language</b>
+                        </Link>
                       </Dropdown.Item>
                       <Dropdown.Item href="#/action-3">
-                        <FaAngleRight /> <b>English Language</b>
+                        <Link to="English">
+                          <FaAngleRight /> <b>English Language</b>
+                        </Link>
                       </Dropdown.Item>
                     </Dropdown>
                   )}
