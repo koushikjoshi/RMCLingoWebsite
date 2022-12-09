@@ -6,7 +6,7 @@ import "./Welcome.css";
 export const Welcome = () => {
   return (
     <div id="welcome">
-      <div className="welcome-empty-image-section"> </div>
+      <div className="d-none d-sm-block welcome-empty-image-section"> </div>
       <div className="welcome-text-section">
         <h2 className="welcome-text">Welcome To</h2>
         <h3 className="rmc-text">RMC Lingo – The proactive language lab!</h3>
