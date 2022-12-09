@@ -151,7 +151,7 @@ export const Navbar = () => {
               onMouseLeave={hideDropdown2}
             >
               <CDropdownToggle variant="link" id="dropdown-basic">
-                <Link to="/" style={{ color: "white" }}>
+                <Link to="/Courses" style={{ color: "white" }}>
                   Courses
                 </Link>
               </CDropdownToggle>

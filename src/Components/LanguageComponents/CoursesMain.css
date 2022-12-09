@@ -1,0 +1,58 @@
+#maincourse{
+    background-position:static;
+    background-image: url(https://tigtsoft.com/rmclingo/wp-content/uploads/2022/12/pexels-ed-duvico-6408672.jpg);
+    width: 100%;
+    height: 100%;
+    background-color: var(--title-color);
+    padding: 140px 0;
+    text-align: center;
+    overflow: hidden;
+}
+.secondtitle{
+    text-align: center;
+    border-bottom: 1px solid black;
+    
+}
+.title{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.18;
+    text-transform: uppercase;
+    color: white;
+    margin: -0.2em 0 -0.2em 0;
+}
+
+.langcourse{
+    border-radius: 10px;
+    background-color: var(--white-color);
+    -webkit-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+    padding: 30px;
+    overflow: hidden;
+}
+
+.langcourse:hover{
+    box-shadow: 0px 3px 0px #dfeaf4;
+    
+}
+.langimg{
+    border-radius: 10px;
+    
+}
+
+.langimg:hover{
+    transform: scale(1.1) ;
+    transition-duration: 500ms;
+    
+}
+.langimgcontainer{
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 267px;
+    height: 230px;
+}
+
+.langtitle{
+    text-decoration: none;
+    outline: 0;
+}

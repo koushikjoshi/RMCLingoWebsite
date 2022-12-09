@@ -15,6 +15,7 @@ import { Japanies } from "./Components/LanguageComponents/Japanies";
 import { Korean } from "./Components/LanguageComponents/Korean";
 import { Russian } from "./Components/LanguageComponents/Russian";
 import { Spanish } from "./Components/LanguageComponents/Spanish";
+import { Courses } from "./Routes/Courses";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/" element={<Hero />} />
         <Route path="/About" element={<About />} />
         <Route path="/Director" element={<DirectorsPage />} />
+        <Route path="/Courses" element={<Courses/>}/>
         <Route path="/Contact" element={<Contact />} />
         <Route path="/Training" element={<Training />} />
         <Route path="/Arabic" element={<Arabic />} />
