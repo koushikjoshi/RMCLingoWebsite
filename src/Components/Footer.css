@@ -13,3 +13,21 @@
     color: var(--body-color);
     line-height: 1.75;
 }
+
+.map{
+    margin-right: 0px;
+}
+
+
+@media (max-width:600px){
+    #footer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .map{
+        width: 100%;
+        
+    }
+}
