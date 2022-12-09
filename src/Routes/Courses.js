@@ -5,13 +5,13 @@ import { Navbar } from '../Components/Navbar'
 
 export const Courses = () => {
   return (
-    <div>
+    <>
         <Navbar/>
         <CoursesMain/>
         <Footer/>
 
 
 
-    </div>
+    </>
   )
 }

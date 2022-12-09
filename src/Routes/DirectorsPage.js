@@ -6,13 +6,13 @@ import { Navbar } from "../Components/Navbar";
 
 export const DirectorsPage = () => {
   return (
-    <div className="container-fluid" id="director">
+   
       <>
         <Navbar />
         <DirectorHero />
         <Message />
         <Footer />
       </>
-    </div>
+    
   );
 };
